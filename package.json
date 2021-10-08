@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "sourcecred": "^0.9.1"
+    "sourcecred": "file:../sourcecred/packages/sourcecred/"
   },
   "scripts": {
     "clean": "rimraf cache site",
@@ -17,7 +17,7 @@
     "grain": "sourcecred grain"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2",
-    "dotenv-cli": "^4.0.0"
+    "dotenv-cli": "^4.0.0",
+    "rimraf": "^3.0.2"
   }
 }
